@@ -31,10 +31,10 @@ El enfoque de Machine Learning proporciona una forma cuantitativa y basada en da
 
 ## Estructura del Proyecto
 
-*src/:* En esta carpeta se encuentra todo el código fuente del proyecto. 
-*src/data/raw/:* Aquí se almacenan los conjuntos de datos en su forma original y sin procesar. 
-*src/data/processed/:* Esta carpeta contiene datos que han sido procesados y limpiados, y que se utilizan en el entrenamiento del modelo. 
-*src/notebooks/:* Aquí se almacenan los notebooks de Jupyter que utilizaste durante todo el proceso del proyecto. Esto puede incluir notebooks para la limpieza de datos, el preprocesamiento, el análisis exploratorio de datos (EDA) y la construcción de modelos de Machine Learning.
-*src/notebooks/project_resume.ipynb:* Este notebook es una parte esencial del proyecto, ya que sirve como un resumen limpio y organizado de todos los pasos que se han seguido a lo largo del proyecto. 
-*src/train.py:* Este script de Python se utiliza para entrenar el modelo en un entorno de script en lugar de un notebook.
-*src/model/:* En esta carpeta se almacenan los modelos entrenados y listos para ser utilizados en la producción
+- *src/:* En esta carpeta se encuentra todo el código fuente del proyecto. 
+- *src/data/raw/:* Aquí se almacenan los conjuntos de datos en su forma original y sin procesar. 
+- *src/data/processed/:* Esta carpeta contiene datos que han sido procesados y limpiados, y que se utilizan en el entrenamiento del modelo. 
+- *src/notebooks/:* Aquí se almacenan los notebooks de Jupyter que utilizaste durante todo el proceso del proyecto. Esto puede incluir notebooks para la limpieza de datos, el preprocesamiento, el análisis exploratorio de datos (EDA) y la construcción de modelos de Machine Learning.
+- *src/notebooks/project_resume.ipynb:* Este notebook es una parte esencial del proyecto, ya que sirve como un resumen limpio y organizado de todos los pasos que se han seguido a lo largo del proyecto. 
+- *src/train.py:* Este script de Python se utiliza para entrenar el modelo en un entorno de script en lugar de un notebook.
+- *src/model/:* En esta carpeta se almacenan los modelos entrenados y listos para ser utilizados en la producción
