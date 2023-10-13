@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Carga el modelo entrenado
-model = joblib.load('model_pipeline.joblib')
+model = joblib.load('model.pkl')
 
 st.title("App de Predicción")
 
