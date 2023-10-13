@@ -33,5 +33,3 @@ if st.button("Predecir"):
     prediction = model.predict([input_features])
     
     st.write(f"La predicción es: {prediction[0]}")
-
-streamlit run streamlit_app.py
