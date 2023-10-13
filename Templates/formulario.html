@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario para Predicción</title>
+</head>
+<body>
+    <h2>Formulario para Predicción</h2>
+    <form action="/predict" method="post">
+        <label for="sub_ID">ID del Empleado:</label>
+        <input type="text" name="sub_ID" id="sub_ID">
+        <br>
+
+        <label for="sub_age">Edad del Empleado:</label>
+        <input type="text" name="sub_age" id="sub_age">
+        <br>
+
+        <label for="sub_sex">Sexo del Empleado:</label>
+        <select name="sub_sex" id="sub_sex">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select>
+        <br>
+
+        <label for="sub_shift">Turno del Empleado:</label>
+        <input type="text" name="sub_shift" id="sub_shift">
+        <br>
+
+        <label for="sub_role">Rol del Empleado:</label>
+        <select name="sub_role" id="sub_role">
+            <option value="1">Laborer</option>
+            <option value="2">Team Leader</option>
+            <option value="3">Shift Manager</option>
+        </select>
+        <br>
+
+        <label for="sub_health_h">Salud:</label>
+        <input type="text" name="sub_health_h" id="sub_health_h">
+        <br>
+
+        <label for="sub_commitment_h">Compromiso:</label>
+        <input type="text" name="sub_commitment_h" id="sub_commitment_h">
+        <br>
+
+        <label for="sub_perceptiveness_h">Perceptividad:</label>
+        <input type="text" name="sub_perceptiveness_h" id="sub_perceptiveness_h">
+        <br>
+
+        <label for="sub_dexterity_h">Destreza:</label>
+        <input type="text" name="sub_dexterity_h" id="sub_dexterity_h">
+        <br>
+
+        <label for="sub_sociality_h">Socialidad:</label>
+        <input type="text" name="sub_sociality_h" id="sub_sociality_h">
+        <br>
+
+        <label for="sub_goodness_h">Benevolencia:</label>
+        <input type="text" name="sub_goodness_h" id="sub_goodness_h">
+        <br>
+
+        <label for="sub_strength_h">Fortaleza:</label>
+        <input type="text" name="sub_strength_h" id="sub_strength_h">
+        <br>
+
+        <label for="sub_openmindedness_h">Mentalidad Abierta:</label>
+        <input type="text" name="sub_openmindedness_h" id="sub_openmindedness_h">
+        <br>
+
+        <label for="sub_workstyle_h">Estilo de Trabajo:</label>
+        <select name="sub_workstyle_h" id="sub_workstyle_h">
+            <option value="1">Group A</option>
+            <option value="2">Group B</option>
+            <option value="3">Group C</option>
+            <option value="4">Group D</option>
+            <option value="5">Group E</option>
+        </select>
+        <br>
+
+        <label for="event_weekday_name">Día de la Semana:</label>
+        <select name="event_weekday_name" id="event_weekday_name">
+            <option value="1">Monday</option>
+            <option value="2">Tuesday</option>
+            <option value="3">Wednesday</option>
+            <option value="4">Thursday</option>
+            <option value="5">Friday</option>
+            <option value="6">Saturday</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Predecir">
+    </form>
+</body>
+</html>
